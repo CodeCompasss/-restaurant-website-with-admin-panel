@@ -18,12 +18,12 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex items-center justify-between mx-auto py-6 px-4 md:py-10">
         {/* Logo and Restaurant Name */}
         <div className="flex items-center font-poppins font-bold text-xl md:text-[26px] relative px-8 md:p-0 md:ml-0 ml-6">
-          <div className="absolute left-[-20px] md:left-[-50px] -top-[13px]">
+          <div className="absolute left-[-20px] md:left-[-80px] -top-[22px]">
             <Image
               src="./images/logo 2.png"
               alt="Logo"
-              width={40}
-              height={40}
+              width={70}
+              height={70}
               objectFit="contain"
             />
           </div>
