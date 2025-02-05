@@ -39,7 +39,10 @@ const mainsection = () => {
             Menu
           </button>
           <div className="p-2  rounded-3xl md:text-[#EC994B] text-white border-[#f39945] border    ">
-            <button className="flex flex-row w-[120px] gap-2 ">
+          <button
+            onClick={() => window.open("https://maps.app.goo.gl/VFrpYxKiSfWgq7479", "_blank")}
+            className="flex flex-row w-[120px] gap-2 "
+>
               <svg
                 className="w-6 h-6 md:text-[#f39945] text-white "
                 aria-hidden="true"

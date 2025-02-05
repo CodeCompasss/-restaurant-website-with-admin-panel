@@ -7,24 +7,27 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 type Review = {
   name: string;
-  title: string;
   text: string;
 };
 
 
 
-const reviews: Review[] = [
+const reviews: Review[] = 
+[
   {
-    name: "Ama Ampomah",
-    title: "CEO & Founder Inc",
-    text: "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque.",
+    "name": "Shadil AM",
+    "text": "The fried chicken tasted absolutely amazing! It was crispy on the outside  Definitely one of the best I’ve had!",
   },
   {
-    name: "Kweku Annan",
-    title: "CEO & Founder Inc",
-    text: "Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque.",
+    "name": "Adwaith",
+    "text": "Loved the fried chicken! Perfectly seasoned and cooked to perfection. Every bite was full of flavor!",
   },
+  {
+    "name": "Aqil",
+    "text": "One of the best fried chickens I’ve had! The flavors were spot on, and the crispy texture made it even better.",
+  }
 ];
+
 
 const Reviews = () => {
   const [sliderRef, setSliderRef] = useState<Slider | null>(null); // Set sliderRef type to Slider
@@ -55,7 +58,7 @@ const Reviews = () => {
           >
             <p className="lg:mb-20 md:mb-16 mb-8 text-sm text-gray-700">{review.text}</p>
             <b className="text-gray-900 ">{review.name}</b>
-            <div className="text-sm text-gray-500">{review.title}</div>
+            {/* <div className="text-sm text-gray-500">{review.title}</div> */}
           </div>
         ))}
       </Slider>
