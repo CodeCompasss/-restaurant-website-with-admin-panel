@@ -56,7 +56,7 @@ const ShortListInfo: React.FC = () => {
             />
           </svg>
         </div>
-        <b>Opposite Anfield turf ,Beach Road , Kappad, Kozhikode</b>
+        <b className="text-center">Opposite Anfield turf ,Beach Road , Kappad, Kozhikode</b>
         <p className="text-gray-600">Our location</p>
       </div>
       <div className="w-full md:w-[32%]  h-full flex flex-col justify-center items-center  gap-2">

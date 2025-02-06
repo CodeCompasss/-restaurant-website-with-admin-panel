@@ -4,16 +4,17 @@ import { ChevronRight } from "lucide-react";
 
 const Footer = memo(() => {
   return (
-    <footer className="w-full bg-white flex flex-col sm:flex-row md:justify-between justify-center items-center  py-6 box-border text-base text-gray-600 font-h3 border-t border-gray-200 gap-6">
+    <footer className="w-full bg-white flex flex-col sm:flex-row md:justify-around justify-center items-center py-6 box-border text-base text-gray-600 font-h3 border-t border-gray-200 gap-6">
       <div>
         <img
           src="./images/footerlogo.png"
-          className="w-30 h-30 object-cover px-10"
+          className="w-32 h-32 object-contain" // Adjusted size and object-fit
           alt="logo"
-
+          width={128} // Explicit width
+          height={128} // Explicit height
         />
       </div>
-      <div className="text-gray-600  lg:text-[15px] text-[10px] md:leading-tight flex gap-6">
+      <div className="text-gray-600 lg:text-[15px] text-[10px] md:leading-tight flex gap-6">
         <Link href="/" className="hover:text-blue-600 transition-colors">
           Contact Us
         </Link>
@@ -23,13 +24,12 @@ const Footer = memo(() => {
         <Link href="/" className="hover:text-blue-600 transition-colors">
           Order Delivery
         </Link>
-
         <Link href="/" className="hover:text-blue-600 transition-colors">
           Terms of Services
         </Link>
       </div>
 
-      <div className="flex flex-row gap-6 lg:gap-10 md:gap-6 items-center justify-start  sm:justify-start">
+      <div className="flex flex-row gap-6 lg:gap-10 md:gap-6 items-center justify-start sm:justify-start">
         <div className="bg-[#fdb66f8a] p-1 rounded-full">
           <Link href="/">
             <svg

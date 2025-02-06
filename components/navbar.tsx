@@ -17,8 +17,8 @@ const Navbar = () => {
     <nav className="w-full border-gray-200 bg-white relative z-50">
       <div className="max-w-screen-xl flex items-center justify-between mx-auto py-6 px-4 md:py-10">
         {/* Logo and Restaurant Name */}
-        <div className="flex items-center font-poppins font-bold text-xl md:text-[26px] relative px-8 md:p-0 md:ml-0 ml-6">
-          <div className="absolute left-[-20px] md:left-[-80px] -top-[22px]">
+        <div className="flex items-center font-poppins font-bold text-xl md:text-[26px] relative px-8 md:p-0 md:ml-0 ml-10">
+          <div className="absolute left-[-45px] md:left-[-80px] -top-[22px]">
             <Image
               src="./images/logo 2.png"
               alt="Logo"

@@ -1,5 +1,5 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/slick-carousel/slick/slick.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
 /* Slider */
 .slick-slider
@@ -122,7 +122,7 @@
 }
 
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/slick-carousel/slick/slick-theme.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./node_modules/slick-carousel/slick/slick-theme.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************/
 @charset 'UTF-8';
 /* Slider */
@@ -329,12 +329,12 @@
     color: black;
 }
 
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/page.tsx","import":"Poppins","arguments":[{"subsets":["latin"],"weight":["400","700"],"variable":"--font-poppins"}],"variableName":"poppins"} ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\page.tsx","import":"Poppins","arguments":[{"subsets":["latin"],"weight":["400","700"],"variable":"--font-poppins"}],"variableName":"poppins"} ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* latin-ext */
 @font-face {
-  font-family: '__Poppins_67380f';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -343,7 +343,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Poppins_67380f';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -352,7 +352,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Poppins_67380f';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -361,23 +361,23 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Poppins_67380f';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/b957ea75a84b6ea7-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Poppins_Fallback_67380f';src: local("Arial");ascent-override: 93.62%;descent-override: 31.21%;line-gap-override: 8.92%;size-adjust: 112.16%
-}.__className_67380f {font-family: '__Poppins_67380f', '__Poppins_Fallback_67380f';font-style: normal
-}.__variable_67380f {--font-poppins: '__Poppins_67380f', '__Poppins_Fallback_67380f'
+}@font-face {font-family: 'Poppins Fallback';src: local("Arial");ascent-override: 93.62%;descent-override: 31.21%;line-gap-override: 8.92%;size-adjust: 112.16%
+}.__className_67380f {font-family: 'Poppins', 'Poppins Fallback';font-style: normal
+}.__variable_67380f {--font-poppins: 'Poppins', 'Poppins Fallback'
 }
 
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/page.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"weight":["400","700"],"variable":"--font-montserrat"}],"variableName":"montserrat"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\page.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"weight":["400","700"],"variable":"--font-montserrat"}],"variableName":"montserrat"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -386,7 +386,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -395,7 +395,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -404,7 +404,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -413,7 +413,7 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -422,7 +422,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -431,7 +431,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -440,7 +440,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -449,7 +449,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -458,14 +458,14 @@
 }
 /* latin */
 @font-face {
-  font-family: '__Montserrat_23b06b';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/4f05ba3a6752a328-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Montserrat_Fallback_23b06b';src: local("Arial");ascent-override: 85.79%;descent-override: 22.25%;line-gap-override: 0.00%;size-adjust: 112.83%
-}.__className_23b06b {font-family: '__Montserrat_23b06b', '__Montserrat_Fallback_23b06b';font-style: normal
-}.__variable_23b06b {--font-montserrat: '__Montserrat_23b06b', '__Montserrat_Fallback_23b06b'
+}@font-face {font-family: 'Montserrat Fallback';src: local("Arial");ascent-override: 85.79%;descent-override: 22.25%;line-gap-override: 0.00%;size-adjust: 112.83%
+}.__className_23b06b {font-family: 'Montserrat', 'Montserrat Fallback';font-style: normal
+}.__variable_23b06b {--font-montserrat: 'Montserrat', 'Montserrat Fallback'
 }
 
