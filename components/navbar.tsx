@@ -30,21 +30,7 @@ const Navbar = () => {
           <div className="font-montserrat">The Little Eatery</div>
         </div>
 
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-8 text-[17.5px] font-inter">
-          <Link href="/" className="hover:text-[#EA6D27]">
-            About
-          </Link>
-          <Link href="/" className="hover:text-[#EA6D27]">
-            Gallery
-          </Link>
-          <Link href="/" className="hover:text-[#EA6D27]">
-            Delivery
-          </Link>
-          <Link href="/" className="hover:text-[#EA6D27]">
-            Contact
-          </Link>
-        </div>
+      
 
         {/* Desktop Menu Button */}
         <button className="hidden md:block">
@@ -60,7 +46,7 @@ const Navbar = () => {
           <div onClick={() => { router.push("./menu") }} className="w-[117px] h-[45px] bg-[#EA6D27] rounded-tl-lg rounded-br-lg text-white font-davidLibre flex items-center justify-center text-[15.5px] hover:bg-[#df631b] drop-shadow-lg">
             MENU
           </div>
-        </button>
+          </button>
       </div>
 
      
