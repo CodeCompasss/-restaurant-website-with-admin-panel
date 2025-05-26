@@ -56,34 +56,14 @@ const Navbar = () => {
         {/* Mobile Hamburger Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden p-2 text-gray-600 ml-auto"
-          aria-expanded={isMenuOpen}
-          aria-label="Toggle navigation"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          className="md:hidden p-2 text-gray-600 ml-auto">
+          <div onClick={() => { router.push("./menu") }} className="w-[117px] h-[45px] bg-[#EA6D27] rounded-tl-lg rounded-br-lg text-white font-davidLibre flex items-center justify-center text-[15.5px] hover:bg-[#df631b] drop-shadow-lg">
+            MENU
+          </div>
         </button>
       </div>
 
-      {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg z-50">
-          <div className="flex flex-col items-center py-4 space-y-4 font-inter">
-            <Link href="/" className="hover:text-[#EA6D27]">
-              About
-            </Link>
-            <Link href="/" className="hover:text-[#EA6D27]">
-              Gallery
-            </Link>
-            <Link href="/" className="hover:text-[#EA6D27]">
-              Delivery
-            </Link>
-            <Link href="/" className="hover:text-[#EA6D27]">
-              Contact
-            </Link>
-
-          </div>
-        </div>
-      )}
+     
 
       {/* Background Circles */}
       <div className="absolute -z-20 h-[750px] w-[750px] border border-[#101A2433] rounded-full -top-[353.58px] -left-[399.69px]"></div>

@@ -1,9 +1,9 @@
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-inter"}],"variableName":"inter"} ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Inter","arguments":[{"subsets":["latin"],"variable":"--font-inter"}],"variableName":"inter"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -12,7 +12,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -21,7 +21,7 @@
 }
 /* greek-ext */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -30,7 +30,7 @@
 }
 /* greek */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -39,7 +39,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -48,7 +48,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -57,23 +57,32 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Inter';
+  font-family: '__Inter_d65c78';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
   src: url(/_next/static/media/a34f9d1faa5f3315-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: 'Inter Fallback';src: local("Arial");ascent-override: 90.44%;descent-override: 22.52%;line-gap-override: 0.00%;size-adjust: 107.12%
-}.__className_d65c78 {font-family: 'Inter', 'Inter Fallback';font-style: normal
-}.__variable_d65c78 {--font-inter: 'Inter', 'Inter Fallback'
+}@font-face {font-family: '__Inter_Fallback_d65c78';src: local("Arial");ascent-override: 90.49%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 107.06%
+}.__className_d65c78 {font-family: '__Inter_d65c78', '__Inter_Fallback_d65c78';font-style: normal
+}.__variable_d65c78 {--font-inter: '__Inter_d65c78', '__Inter_Fallback_d65c78'
 }
 
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Poppins","arguments":[{"subsets":["latin"],"weight":["400","500","700"],"variable":"--font-poppins"}],"variableName":"poppins"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"Poppins","arguments":[{"subsets":["latin"],"weight":["400","500","700"],"variable":"--font-poppins"}],"variableName":"poppins"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_528a31';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/034d78ad42e9620c-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
 /* latin-ext */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -82,16 +91,25 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/eafabf029ad39a43-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_528a31';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/db911767852bc875-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
 /* latin-ext */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -100,16 +118,25 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(/_next/static/media/8888a3826f4a3af4-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* devanagari */
+@font-face {
+  font-family: '__Poppins_528a31';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/29a4aea02fdee119-s.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
 /* latin-ext */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -118,23 +145,23 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: '__Poppins_528a31';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/b957ea75a84b6ea7-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: 'Poppins Fallback';src: local("Arial");ascent-override: 93.62%;descent-override: 31.21%;line-gap-override: 8.92%;size-adjust: 112.16%
-}.__className_b20b35 {font-family: 'Poppins', 'Poppins Fallback';font-style: normal
-}.__variable_b20b35 {--font-poppins: 'Poppins', 'Poppins Fallback'
+}@font-face {font-family: '__Poppins_Fallback_528a31';src: local("Arial");ascent-override: 93.62%;descent-override: 31.21%;line-gap-override: 8.92%;size-adjust: 112.16%
+}.__className_528a31 {font-family: '__Poppins_528a31', '__Poppins_Fallback_528a31';font-style: normal
+}.__variable_528a31 {--font-poppins: '__Poppins_528a31', '__Poppins_Fallback_528a31'
 }
 
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"David_Libre","arguments":[{"subsets":["latin"],"weight":["400","500","700"],"variable":"--font-david-libre"}],"variableName":"davidLibre"} ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.tsx","import":"David_Libre","arguments":[{"subsets":["latin"],"weight":["400","500","700"],"variable":"--font-david-libre"}],"variableName":"davidLibre"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* hebrew */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -143,7 +170,7 @@
 }
 /* math */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -152,7 +179,7 @@
 }
 /* symbols */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -161,7 +188,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -170,7 +197,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -179,7 +206,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -188,7 +215,7 @@
 }
 /* hebrew */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -197,7 +224,7 @@
 }
 /* math */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -206,7 +233,7 @@
 }
 /* symbols */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -215,7 +242,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -224,7 +251,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -233,7 +260,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -242,7 +269,7 @@
 }
 /* hebrew */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -251,7 +278,7 @@
 }
 /* math */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -260,7 +287,7 @@
 }
 /* symbols */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -269,7 +296,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -278,7 +305,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -287,45 +314,45 @@
 }
 /* latin */
 @font-face {
-  font-family: 'David Libre';
+  font-family: '__David_Libre_e67069';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/02d289ead8daa7c4-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: 'David Libre Fallback';src: local("Times New Roman");ascent-override: 76.60%;descent-override: 21.51%;line-gap-override: 0.00%;size-adjust: 101.92%
-}.__className_e67069 {font-family: 'David Libre', 'David Libre Fallback';font-style: normal
-}.__variable_e67069 {--font-david-libre: 'David Libre', 'David Libre Fallback'
+}@font-face {font-family: '__David_Libre_Fallback_e67069';src: local("Times New Roman");ascent-override: 73.20%;descent-override: 21.51%;line-gap-override: 0.00%;size-adjust: 101.92%
+}.__className_e67069 {font-family: '__David_Libre_e67069', '__David_Libre_Fallback_e67069';font-style: normal
+}.__variable_e67069 {--font-david-libre: '__David_Libre_e67069', '__David_Libre_Fallback_e67069'
 }
 
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-font-family: 'geistSans';
+font-family: '__geistSans_1e4310';
 src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
 font-display: swap;
 font-weight: 100 900;
-}@font-face {font-family: 'geistSans Fallback';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
-}.__className_1e4310 {font-family: 'geistSans', 'geistSans Fallback'
-}.__variable_1e4310 {--font-geist-sans: 'geistSans', 'geistSans Fallback'
+}@font-face {font-family: '__geistSans_Fallback_1e4310';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}.__variable_1e4310 {--font-geist-sans: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
 }
 
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app\\layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @font-face {
-font-family: 'geistMono';
+font-family: '__geistMono_c3aa02';
 src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
 font-display: swap;
 font-weight: 100 900;
-}@font-face {font-family: 'geistMono Fallback';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
-}.__className_c3aa02 {font-family: 'geistMono', 'geistMono Fallback'
-}.__variable_c3aa02 {--font-geist-mono: 'geistMono', 'geistMono Fallback'
+}@font-face {font-family: '__geistMono_Fallback_c3aa02';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}.__variable_c3aa02 {--font-geist-mono: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
 }
 
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -821,6 +848,39 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
 .absolute {
   position: absolute;
 }
@@ -860,8 +920,8 @@ video {
 .left-4 {
   left: 1rem;
 }
-.left-\[-20px\] {
-  left: -20px;
+.left-\[-45px\] {
+  left: -45px;
 }
 .right-0 {
   right: 0px;
@@ -886,24 +946,6 @@ video {
 }
 .top-full {
   top: 100%;
-}
-.left-\[-10px\] {
-  left: -10px;
-}
-.left-\[-60px\] {
-  left: -60px;
-}
-.left-\[-50px\] {
-  left: -50px;
-}
-.left-\[-40px\] {
-  left: -40px;
-}
-.left-\[-30px\] {
-  left: -30px;
-}
-.left-\[-45px\] {
-  left: -45px;
 }
 .-z-20 {
   z-index: -20;
@@ -944,8 +986,8 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.ml-6 {
-  margin-left: 1.5rem;
+.ml-10 {
+  margin-left: 2.5rem;
 }
 .ml-auto {
   margin-left: auto;
@@ -958,12 +1000,6 @@ video {
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.ml-8 {
-  margin-left: 2rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
 }
 .box-border {
   box-sizing: border-box;
@@ -986,14 +1022,14 @@ video {
 .h-2 {
   height: 0.5rem;
 }
+.h-32 {
+  height: 8rem;
+}
 .h-6 {
   height: 1.5rem;
 }
 .h-8 {
   height: 2rem;
-}
-.h-\[200px\] {
-  height: 200px;
 }
 .h-\[400px\] {
   height: 400px;
@@ -1019,23 +1055,23 @@ video {
 .h-full {
   height: 100%;
 }
-.h-32 {
-  height: 8rem;
-}
 .max-h-screen {
   max-height: 100vh;
 }
-.min-h-screen {
-  min-height: 100vh;
-}
 .min-h-\[200px\] {
   min-height: 200px;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .w-16 {
   width: 4rem;
 }
 .w-2 {
   width: 0.5rem;
+}
+.w-32 {
+  width: 8rem;
 }
 .w-6 {
   width: 1.5rem;
@@ -1058,8 +1094,8 @@ video {
 .w-full {
   width: 100%;
 }
-.w-32 {
-  width: 8rem;
+.w-screen {
+  width: 100vw;
 }
 .max-w-4xl {
   max-width: 56rem;
@@ -1072,6 +1108,12 @@ video {
 }
 .max-w-screen-xl {
   max-width: 1280px;
+}
+.max-w-5xl {
+  max-width: 64rem;
+}
+.max-w-\[800px\] {
+  max-width: 800px;
 }
 .flex-shrink-0 {
   flex-shrink: 0;
@@ -1144,6 +1186,9 @@ video {
 }
 .overflow-y-auto {
   overflow-y: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 .text-wrap {
   text-wrap: wrap;
@@ -1315,6 +1360,10 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1378,10 +1427,6 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -1398,11 +1443,11 @@ video {
 .leading-\[130\%\] {
   line-height: 130%;
 }
-.leading-tight {
-  line-height: 1.25;
-}
 .leading-relaxed {
   line-height: 1.625;
+}
+.leading-tight {
+  line-height: 1.25;
 }
 .tracking-\[0\.01em\] {
   letter-spacing: 0.01em;
@@ -1426,10 +1471,6 @@ video {
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity, 1));
-}
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
@@ -1458,6 +1499,11 @@ video {
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .drop-shadow-lg {
@@ -1576,20 +1622,8 @@ body {
     position: relative;
   }
 
-  .md\:left-60 {
-    left: 15rem;
-  }
-
   .md\:left-\[-80px\] {
     left: -80px;
-  }
-
-  .md\:right-60 {
-    right: 15rem;
-  }
-
-  .md\:left-\[-60px\] {
-    left: -60px;
   }
 
   .md\:mb-16 {
@@ -1664,10 +1698,6 @@ body {
     justify-content: flex-start;
   }
 
-  .md\:justify-between {
-    justify-content: space-between;
-  }
-
   .md\:justify-around {
     justify-content: space-around;
   }
@@ -1717,6 +1747,11 @@ body {
     padding-right: 5rem;
   }
 
+  .md\:px-60 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1725,11 +1760,6 @@ body {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .md\:px-60 {
-    padding-left: 15rem;
-    padding-right: 15rem;
   }
 
   .md\:pt-32 {
